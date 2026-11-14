@@ -6,7 +6,7 @@ copyright = "CC-BY-SA"
 theme = "marvelous-snuffle"
 
 [params]
-description = "Hackerspace to miejsce dla osób, którym po prostu się chce!"
+description = "Hackerspace to społeczność dla pasjonatów technologii i sztuki, dająca narzędzia i przestrzeń dla kreatywnych przedsięwzięć"
 
 [menu]
 
@@ -51,13 +51,13 @@ description = "Hackerspace to miejsce dla osób, którym po prostu się chce!"
     name = "Zaloguj Się"
     url = "https://auth.hsp.sh/"
     weight = 30
-
+    
   [[menu.social]]
-    identifier = "fb"
-    name = "Facebook"
-    url = "https://hsp.sh/facebook"
-    weight = 10
-    params = { icon = "lab la-facebook" }
+    identifier = "mstdn"
+    name = "Mastodon"
+    url = "https://hsp.sh/mastodon"
+    weight = 20
+    params = { icon = "lab la-mastodon" }
 
   [[menu.social]]
     identifier = "ig"
@@ -67,8 +67,9 @@ description = "Hackerspace to miejsce dla osób, którym po prostu się chce!"
     params = { icon = "lab la-instagram" }
     
   [[menu.social]]
-    identifier = "mstdn"
-    name = "Mastodon"
-    url = "https://hsp.sh/mastodon"
-    weight = 20
-    params = { icon = "lab la-mastodon" }
+    identifier = "fb"
+    name = "Facebook"
+    url = "https://hsp.sh/facebook"
+    weight = 10
+    params = { icon = "lab la-facebook" }
+    
